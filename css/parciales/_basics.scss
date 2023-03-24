@@ -1,0 +1,63 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+button,
+a,
+input,
+i {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   border: 0;
+   -webkit-tap-highlight-color: transparent;
+   text-decoration: none;
+   color: inherit;
+
+   &:focus {
+       outline: 0;
+   }
+}
+
+
+
+@mixin xl {
+    @media screen and (max-width: 1440px) {
+        @content;
+    }
+ }
+ 
+ @mixin lg {
+    @media screen and (max-width: 1240px) {
+        @content;
+    }
+ }
+ 
+ @mixin md {
+    @media screen and (max-width: 1023px) {
+        @content;
+    }
+ }
+ 
+ @mixin sm {
+    @media screen and (max-width: 799px) {
+        @content;
+    }
+ }
+ 
+ @mixin xs {
+    @media screen and (max-width: 639px) {
+        @content;
+    }
+ }
+ 
+ @mixin xxs {
+    @media screen and (max-width: 380px) {
+        @content;
+    }
+ }
