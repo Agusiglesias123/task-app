@@ -4,31 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/main.css">
-    <title>Document</title>
+    <title>BRAVE - TAREAS</title>
 </head>
-<body>
+<body class="body">
 
 
-    <main class="contenedor-main">
-        <div class="contenedor-father">
-            <div id="child-1" class="contenedor-child-1">
-                <h4>brave</h4>
-            </div>
-            <div class="contenedor-child-2">
-                <form class="form">
-                    <input id="listaInput" class="input" type="text" placeholder="escribir">
-                    <button id="buttonEnviar" class="input-button" type="submit">enviar</button>
-                </form>
-            </div>
-            <div class="contenedor-child-3" id="list">
-                <ul class="ul" id="ul">
+<div class="contenedor-father">
+    <div id="child-1" class="contenedor-child-1">
+        <h4 class="title">brave - TAREAS</h4>
+    </div>
+    <div class="contenedor-child-2">
+        <form class="form">
+            <input id="listaInput" autocomplete="off" class="input" type="text" placeholder="Agregar tarea">
+            <button type="submit" id="buttonEnviar" class="input-button">+</button>
+            <button type="button" class="input-button-ordenar" id="eliminarTodo">Eliminar tareas</button>
+            </form>
+    </div>
+    <div class="contenedor-child-3" id="list">
+        <ul class="ul" id="ul">
+        </ul>
+    </div>
+</div>
 
-                </ul>
-            </div>
-        </div>
-    </main>
-    
 
 
 <script src="/js/index.js"></script>    

@@ -1,3 +1,4 @@
+*,
 h1,
 h2,
 h3,
@@ -23,7 +24,17 @@ i {
        outline: 0;
    }
 }
+// Paleta de colores
+$color-fondo: #E0E0E0 ;
+$color-principal-fondo: #ffffff;
+$color-boton-borrar: #c50101 ;
+$color-boton: #BA9AF9;
+$color-blanco: #fff;
+$color-oscuro: #565656;
 
+@mixin border{
+    border-radius: 3px;
+}
 
 
 @mixin xl {
@@ -61,3 +72,7 @@ i {
         @content;
     }
  }
+
+
+
+
